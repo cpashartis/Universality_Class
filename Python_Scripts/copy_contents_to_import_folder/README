@@ -1,0 +1,3 @@
+Copy all items in this directory to a new folder in the same directory that Ann_Check lies in. 
+
+Edit data_management.py for directory on sharcnet you wish to pull data from as well as the other parameters such as using swap or not. (At the top of the script).

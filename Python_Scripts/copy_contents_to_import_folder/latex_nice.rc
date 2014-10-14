@@ -1,0 +1,19 @@
+# matplotlibrc file
+axes.labelsize  : 12.0  # fontsize of the x any y labels
+
+xtick.labelsize : 10.0  # fontsize of the tick labels
+ytick.labelsize : 10.0  # fontsize of the tick labels
+
+legend.fontsize : 10.0
+legend.numpoints : 1
+
+figure.dpi     : 500 	#dpi for savefig
+
+font.family		: serif
+font.serif		: Computer Modern Roman
+
+text.usetex     : True # use latex for all text handling
+text.antialiased : True # If True (default), the text will be antialiased.
+                         # This only affects the Agg backend.
+
+axes.color_cycle : F6BF62, F68E62, 58DDA8, 6396DC, E69817, E65517, 109C64, 1B4F97, 9A773D, 9A593D, 2A694F, 2D4565, 7B4F04, 7B2804, 035433, 052551, F6d59C, F6B79C, 8DDDBD, 92B1DC
