@@ -170,7 +170,7 @@ def plot_universality(path, order_type, hybrid = False):
             label = 'Weighted Fit, $\chi_{reduced}^2$ %.3f' %(reduced) )
     
 #-------------------Add Ann's data to order plot------------------------------
-    ann_data = np.loadtxt('/Users/christoforos/NSERC_Melko/QMC/Ann_Check/order_g.dat') #first col order, second is entropy
+    ann_data = np.loadtxt('../Ann_Check/order_g.dat') #first col order, second is entropy
     ax.plot(1/np.sqrt(ann_data[:,0]), ann_data[:,1]/2., 'ko-',label = "Ann's Geometric Data.data")
     
     ax.legend(loc = 'lower right')
