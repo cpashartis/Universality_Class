@@ -183,7 +183,7 @@ def plot_universality(path, order_type, hybrid = False):
 ###############################################################################
 #SECOND PLOT, corner entropy term
     #load data for the graph of all alpha
-    tfim = np.loadtxt('/Users/christoforos/NSERC_Melko/QMC/Ann_Check/tfim.dat')
+    tfim = np.loadtxt('../Ann_Check/tfim.dat')
     
     #plot the alpha curve
     ax.plot(tfim[:,0],tfim[:,1], '#990000', label = r"$O_G$ coefficients")
